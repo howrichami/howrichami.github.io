@@ -1,0 +1,17 @@
+{
+  "country": "Singapore",
+  "currency": "SGD",
+  "percentiles": [
+    {"percentile": 99, "threshold": 10000000},
+    {"percentile": 95, "threshold": 5000000},
+    {"percentile": 90, "threshold": 2000000},
+    {"percentile": 80, "threshold": 1000000},
+    {"percentile": 70, "threshold": 500000},
+    {"percentile": 60, "threshold": 300000},
+    {"percentile": 50, "threshold": 150000},
+    {"percentile": 40, "threshold": 80000},
+    {"percentile": 30, "threshold": 40000},
+    {"percentile": 20, "threshold": 20000},
+    {"percentile": 10, "threshold": 5000}
+  ]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Rich Am I?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo">How Rich Am I?</h1>
+            <p>Discover where you stand in the wealth distribution of Singapore.</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <div class="input-group">
+                    <label for="networth">Enter your Net Worth (SGD)</label>
+                    <input type="number" id="networth" placeholder="e.g. 500000" step="1000">
+                </div>
+                <button id="calculate-btn">Check Percentile</button>
+
+                <div id="result-container" class="hidden">
+                    <div class="result-label">Your Percentile</div>
+                    <div id="percentile-value" class="result-value">0%</div>
+                    <p id="result-text"></p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Pilot: Singapore only</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
